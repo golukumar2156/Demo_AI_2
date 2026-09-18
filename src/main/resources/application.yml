@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: Demo_AI
+  ai:
+    openai:
+      api-key: 
+      base-url: https://api.groq.com/openai/v1
+      chat:
+        model: openai/gpt-oss-20b
+        options:
+          reasoning-effort: low
+        extra-body:
+          include_reasoning: false
+weather:
+  api:
+    key: 
+    base-url: https://api.weatherapi.com/v1
